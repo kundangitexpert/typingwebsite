@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    background-color: gold;
+}
+#header{
+    display: flex;
+ 
+}
+#space{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+    /* font-family: "IM Fell DW Pica SC", serif; */
+}
+.btni{
+    margin-top: 10px;
+    margin-left: 850px;
+    height: 35px;
+    width: 85px;
+    display: flex;
+    
+}
+.demo{
+    height: 40px;
+    width: 100px;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 10px;
+}
+#just{
+    padding: 10px;
+}
+/* button{
+    margin-left: 10px;
+} */
+.container{
+    width: 700px;
+    /* margin: auto; */
+    margin-left: 150px;
+    text-align: center;
+    
+    margin-top: 60px;
+}
+.container h1{
+    margin-left: 50px;
+}
+.container button{
+    width: 90px;
+    height: 35px;
+    background-color: rgb(255, 9, 50);
+    color: rgb(255, 254, 254);
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 24px;
+    border-radius: 8px;
+    border:none
+    
+}
+textarea{
+    height: 252px;
+    width: 70vw;
+    background-color: aqua;
+    border-radius: 11px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    
+    font-size: 18px;
+    padding: 11px;
+    color:  black;
+    font-size: 20px;
+    
+    
+    
+}
+.textarea p{
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    margin: auto;
+    
+}
+@media screen and (max-width: 400px) {
+    textarea{
+        height: 452px;
+        background-color: rgb(164, 226, 226);
+        border-radius: 11px;
+        margin-top: 82px;
+        margin-bottom: 102px;
+        border: 5px solid black;
+        font-size: 18px;
+        padding: 11px;
+        color:  black;
+        font-size: 20px;
+        
+        }
+        #space{
+            margin-top: 10px;
+            margin-left: 40px;
+            font-weight: bold;
+            font-size: 12px;
+            color: rgb(0, 0, 0);
+            /* font-family: "IM Fell DW Pica SC", serif; */
+        }
+  }
